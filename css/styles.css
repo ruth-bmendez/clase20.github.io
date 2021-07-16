@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #F3F3F3;
+}
+
+.header {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style: none;
+    display: none;
+    margin: 0;
+}
+
+.header ul li {
+    margin: 0 0 0 1rem;
+    font-size: 13px;
+    color: white;
+}
+
+.carrito {
+    display: none;
+}
+
+.logo, .menu-hamburguesa {
+    padding: 1rem;
+    margin: 1.5rem;
+}
+
+.banner {
+    background-image: url(/img/banner.jpg);
+    background-size: cover;
+    height: 512px;
+    left: 0px;
+    top: 90px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner span {
+    color: red;
+}
+
+.banner h1 {
+    color: white;
+    height: 133px;
+    width: 336px;
+    left: 39px;
+    top: 224px;
+}
+
+.banner .btn-comprar {
+    width: 220px;
+    height: 61px;
+    left: 97px;
+    top: 407px;
+    color: white;
+    background-color: red;
+}
+
+.btn-comprar {
+    font-size: 2rem
+}
+
+.main {
+    background-color: #F3F3F3;
+}
+
+.productos-destacados h1 {
+    font-size: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 240px;
+    height: 322px;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px gray;
+    width: 100%;
+    padding: 1rem;
+}
+
+.foto {
+    width: 130px;
+}
+
+hr {
+    width: 100%;
+}
+
+.productos-destacados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.envio-gratis {
+    color: #619D00;
+}
+
+.pr-estrella-h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.productos-estrella {
+    margin: 0 4rem 8rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pc-silla1 {
+    /* background-image: url(/img/silla.jpg);
+     width: 100%;
+     height: auto;
+     background-repeat: no-repeat;
+     right: 15rem; */
+    background-image: url(/img/silla.jpg);
+    /* width: 288px; */
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    font-size: 1.2rem;
+    line-height: 18px;
+    color: #F3F3F3;
+    text-align: right;
+    padding: 45px 30px 0 0;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.pc-silla {
+    background-image: url(/img/computadora.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    font-size: 1.2rem;
+    line-height: 18px;
+    color: #F3F3F3;
+    text-align: right;
+    padding: 45px 30px 0 0;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.footer-redes {
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Roboto";
+}
+
+.footer {
+    background-color: #C4C4C4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-content: center;
+}
+
+.footer p {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+/*****************************************************/
+
+@media (min-width: 720px) {
+    .header {
+        height: 62px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+    }
+    .menu-hamburguesa {
+        display: none;
+    }
+.header ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.carrito{
+    display: flex;
+  margin: 1rem;
+}
+
+.banner h1{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.p-dest{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pc-silla{
+    width: 40%;
+}
+
+.pc-silla1{
+    width: 40%;
+}
+
+.productos-estrella{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+.footer-redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+}
