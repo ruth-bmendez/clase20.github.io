@@ -137,7 +137,7 @@ hr {
      height: auto;
      background-repeat: no-repeat;
      right: 15rem; */
-    background-image: url(/img/silla.jpg);
+    background-image: url(../img/silla.jpg);
     /* width: 288px; */
     height: 200px;
     width: 100%;
@@ -152,7 +152,7 @@ hr {
 }
 
 .pc-silla {
-    background-image: url(/img/computadora.jpg);
+    background-image: url(../img/computadora.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
